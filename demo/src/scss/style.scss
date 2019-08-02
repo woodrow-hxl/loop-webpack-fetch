@@ -1,0 +1,19 @@
+$bgsize:200px;
+$bgcolor:#ccc;
+$size:100px;
+$color:pink;
+*{
+	padding: 0;	
+	margin: 0;	
+}
+#app{
+	width: $bgsize;
+	height: $bgsize;
+	border:20px solid $bgcolor;
+}
+.box{
+	width:$size;
+	height: $size;
+	margin: 50px 50px;
+	background-color: $color;
+}
